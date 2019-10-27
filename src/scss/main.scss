@@ -1,0 +1,71 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+/* 2. Content ================================= */
+
+h1, p{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1.headline{
+	font-size: 60px;
+	text-align: center;
+	margin: 15px;
+}
+
+div h1{
+	font-size: 25px;
+	font-family: 'Roboto Condensed', bold;
+	margin: 30px 30px;
+}
+
+p{
+	font-size:15px;
+}
+
+div.time{
+	text-align: left;
+}
+
+div.amount{
+	text-align: right;
+}
+
+div.memory{
+	text-align: left;
+}
+
+div.nap{
+	text-align: right;
+}
+
+div.live{
+	text-align: left;
+}
