@@ -43,7 +43,7 @@ h1.headline{
 div h1{
 	font-size: 25px;
 	font-family: 'Roboto Condensed', bold;
-	margin: 30px 30px;
+	margin: 15px;
 }
 
 p{
@@ -52,20 +52,25 @@ p{
 
 div.time{
 	text-align: left;
+	margin: 0 30px;
 }
 
 div.amount{
 	text-align: right;
+	margin: 0 30px;
 }
 
 div.memory{
 	text-align: left;
+	margin: 0 30px;
 }
 
 div.nap{
 	text-align: right;
+	margin: 0 30px;
 }
 
 div.live{
 	text-align: left;
+	margin: 0 30px;
 }
