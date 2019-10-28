@@ -43,16 +43,18 @@ h1.headline{
 div h1{
 	font-size: 25px;
 	font-family: 'Roboto Condensed', bold;
-	margin: 15px;
+	
 }
 
 p{
 	font-size:15px;
+	margin: 10px 0;
 }
 
 div.time{
 	text-align: left;
 	margin: 0 30px;
+	padding: 5px;
 }
 
 div.amount{
@@ -73,4 +75,10 @@ div.nap{
 div.live{
 	text-align: left;
 	margin: 0 30px;
+}
+
+footer p{
+	float:left;
+	padding: 5px 10px;
+	margin-left: 50px;
 }
