@@ -38,16 +38,17 @@ h1.headline{
 
 div.time{
 	position:relative;
-	text-align: left;
-	margin: 0 30px;
+	display:inline-block;
 
 	h1{
+		position:absolute;
 		color: white;
 		font-size: 25px;
 		font-family: 'Roboto Condensed', bold;	
 	}
 
 	p{
+		position:absolute;
 		font-family: 'Roboto Condensed', sans-serif;
 		font-size:15px;
 		margin: 10px 0;
