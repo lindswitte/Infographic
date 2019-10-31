@@ -35,7 +35,7 @@ h1, p{
 }
 
 h1.headline{
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	margin: 15px;
 }
@@ -49,36 +49,293 @@ div h1{
 p{
 	font-size:15px;
 	margin: 10px 0;
+	color: #de9527;
 }
 
 div.time{
+	float: left;
 	text-align: left;
 	margin: 0 30px;
 	padding: 5px;
 }
+
+.sleeper{
+	position:absolute;
+	width: 35%;
+	top: 20%;
+	right: 4.4%;
+}
+
+.alarm-clock{
+	position:absolute;
+	width: 5%;
+	top: 22%;
+	right: 25%;
+}
+
+.bolt{
+	position:absolute;
+	width: 2%;
+	top: 20%;
+	right: 10%;
+	transform: rotate(30deg);
+
+}
+.bolt-1{
+	position:absolute;
+	width: 2%;
+	top: 20%;
+	right: 15%;
+
+}
+
+.bolt-2{
+	position:absolute;
+	width: 2%;
+	top: 20%;
+	right: 20%;
+
+}
+
+.bolt-3{
+	position:absolute;
+	width: 2%;
+	top: 20%;
+	right: 25%;
+
+}
+
+.bolt-4{
+	position:absolute;
+	width: 2%;
+	top: 20%;
+	right: 30%;
+
+}
+
+.bolt-5{
+	position:absolute;
+	width: 2%;
+	top: 20%;
+	right: 35%;
+
+}
+
+
+
+
 
 div.amount{
 	text-align: right;
 	margin: 0 30px;
 }
 
+.robot{
+	position:absolute;
+	width: 20%;
+	top: 18%;
+	right: 50%;
+
+}
+.robot-bolt{
+	position:absolute;
+	width: 5%;
+	top: 20%;
+	right: 35%;
+}
+
+.robot-bolt-1{
+	position:absolute;
+	width: 5%;
+	top: 20%;
+	right: 35%;
+
+}
+
+.robot-bolt-2{
+	position:absolute;
+	width: 5%;
+	top: 20%;
+	right: 35%;
+}
+
+.hands{
+	position:absolute;
+	width: 25%;
+	top: 20%;
+	right: 70%;
+
+}
+.hands-bolt{
+	position:absolute;
+	position:absolute;
+	width: 5%;
+	top: 18%;
+	right: 50%;
+
+}
+.hands-bolt-1{
+	position:absolute;
+	width: 5%;
+	top: 18%;
+	right: 50%;
+
+}
+
+.hands-bolt-2{
+	position:absolute;
+	width: 5%;
+	top: 18%;
+	right: 50%;
+
+}
+
+
+
+
 div.memory{
 	text-align: left;
 	margin: 0 30px;
 }
+
+.brain{
+	position:absolute;
+	width: 17%;
+	top: 40%;
+	right: 10%;
+
+}
+.books-barbell{
+	position:absolute;
+	width: 20%;
+	top: 39%;
+	left: 69.5%;
+	right: 50%;
+
+}
+.highlight{
+	position:absolute;
+	width: 3%;
+	top: 50%;
+	right: 25%;
+
+}
+
+
 
 div.nap{
 	text-align: right;
 	margin: 0 30px;
 }
 
+.boss{
+	position:absolute;
+	width: 15%;
+	top: 39%;
+	left: 10%;
+	right: 50%;
+
+}
+.sleeping-person{
+	position:absolute;
+	width: 35%;
+	top: 40.5%;
+	left: 30%;
+	right: 50%;
+
+}
+
+.clock{
+	position:absolute;
+	width: 10%;
+	top: 33%;
+	left: 38%;
+	right: 50%;
+
+}
+
+.thought-bubble{
+	position:absolute;
+	width: 9%;
+	top: 32%;
+	left: 13%;
+	right: 50%;
+
+}
+
+.big-z{
+	position:absolute;
+	width: 3%;
+	top: 40.7%;
+	left: 64.8%;
+	right: 37%;
+}
+
+.small-z{
+	position:absolute;
+	width: 2%;
+	top: 42%;
+	left: 64%;
+	right: 55%;
+}
+
+
+
 div.live{
 	text-align: left;
 	margin: 0 30px;
 }
+.pill{
+	position:absolute;
+	width: 6%;
+	top: 67%;
+	left: 71%;
+	right: 50%;
+}
+
+.pill-2{
+	position:absolute;
+	width: 4.5%;
+	top: 75%;
+	left: 67.5%;
+	right: 50%;
+}
+
+.pencil{
+	position:absolute;
+	width: 2.5%;
+	top: 68.5%;
+	left: 90.5%;
+	right: 50%;
+}
+
+.clipboard{
+	position:absolute;
+	width: 20%;
+	top: 65%;
+	left: 69.5%;
+	right: 50%;
+}
+
+.first-aid-kit{
+	position:absolute;
+	width: 10%;
+	top: 76%;
+	left: 80%;
+	right: 40%;
+
+}
+
+
 
 footer p{
 	float:left;
 	padding: 5px 10px;
 	margin-left: 50px;
+	color: white;
 }
+
+footer span{
+	color: #de9527
+}
+
