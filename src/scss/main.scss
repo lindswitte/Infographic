@@ -39,6 +39,8 @@ body {
 
 // /* 2. Content ================================= */
 
+// layout styles
+
 h1.headline{
 	font-size: 50px;
 	font-weight: bold;
@@ -48,8 +50,7 @@ h1.headline{
 
 section.time,
 section.memory,
-section.live, {
-
+section.live {
 	h2 {
 		.number {
 			font-size: 50px;
@@ -67,7 +68,7 @@ section.live, {
 }
 
 section.consume,
-section.nap, {
+section.nap {
 	h2 {
 		.number {
 			font-size: 50px;
@@ -81,31 +82,91 @@ section.nap, {
 	
 	p {
 		font-size: 15px;
-
 	}
 }
 
-.text-container-left-align {
-	width:50%;
-	float:left;
-}
+// section styles
 
-.image-container-right-align {
+section.time{
+	.text-container-left-align {
 		width:50%;
-		float:right;
+		float:left;
+		margin: 35px 0;
+	}
 
+	.image-container-right-align {
+		.sleeper{
+			position: relative;
+			width:50%;
+			float:left;
+			margin: 50px 0;
+			bottom: 100px;
+		}
+		.alarm-clock{
+			position: relative;
+			bottom: 5px;
+			left: 70px;
+		}
+		.bolt{
+			position:relative;
+			margin: 10px 0;
+		}
+		.bolt-1{
+			position:relative;
+		}
+		.bolt-2{
+			position:relative;
+		}
+		.bolt-3{
+			position:relative;
+		}
+		.bolt-4{
+			position:relative;	
+		}
+		.bolt-5{
+			position:relative;	
+		}
+	}
 }
 
+// inline display
 
 section.consume {
 	.text-container-right-align {
 		width:50%;
-		float:right;
-	}
-	
-	.image-container-left-align {
-		width:50%;
 		float:left;
+	}
+
+	.image-container-left-align {
+		.hands{
+			position:relative;
+			float:left;
+
+		}
+		.hands-bolt{
+			position:relative;
+			float:left;
+		}
+		.hands-bolt-1{
+			position:relative;
+			float:left;
+		}
+		.hands-bolt-2{
+			position:relative;
+			float:left;
+		}
+		.robot{
+			position:relative;
+			float:left;
+		}
+		.robot-bolt-1{
+			position:relative;
+			float:left;
+		}
+		.robot-bolt-2{
+			position:relative;
+			float:left;
+		}
 	}
 }
 
@@ -116,40 +177,94 @@ section.memory {
 	}
 
 	.image-container-right-align {
-		width:50%;
-		float:right;
+		.brain{
+			position:relative;
+			float:left;
+		}
+
+		.books-barbell{
+			position:relative;
+			float:left;
+		}
+		.highlight{
+			position:relative;
+			float:left;
+		}
+	
 	}
 }
-
-
 
 section.nap {
 	.text-container-right-align {
 		width:50%;
-		float:right;
+		float:left;
 	}
 
 	.image-container-left-align {
-		width:50%;
-		float:left;
+		.boss{
+			position:relative;
+			float:left;
+		}
+		.sleeping-person{
+			position:relative;
+			float:left;
+		}
+		.alarm-clock{
+			position:relative;
+			float:left;
+		}
+
+		.thought-bubble{
+			position:relative;
+			float:left;
+		}
+
+		.big-z{
+			position:relative;
+			float:left;
+		}
+
+		.small-z{
+			position:relative;
+			float:left;
+		}
 	}
 }
-
 
 
 section.live {
 	.text-container-left-align {
 		width:50%;
+		float:left;
 	}
 
 	.image-container-right-align {
-		width:50%;
+		.pill{
+			position:relative;
+			float:left;
+		}
+		.pill-2{
+			position:relative;
+			float:left;
+		}
+		.pencil{
+			position:relative;
+			float:left;
+		}
+		.clipboard{
+			position:relative;
+			float:left;
+		}
+		.first-aid-kit{
+			position:relative;
+			float:left;
+		}
 	}
+
 }
 
 
-
-
+// footer styles
 
 footer p{
 	font-size: 10px;
@@ -164,4 +279,30 @@ footer span{
 	font-size: 10px;
 	color: #de9527
 }
+
+// @media screen and (min-width: 640px) {
+// 	section.time{
+// 		width: 100%;
+// 	}
+// }
+
+// @media screen and (min-width: 720px) {
+// 	h1.headline{
+// 		font-size: 70px;
+// 		font-weight: bold;
+// 		text-align: center;
+// 		margin: 15px;	
+// 	}
+
+// 	section.time{
+// 		width:75%;
+// 	}
+// }
+
+// @media screen and (min-width: 960px) {
+// 	section.time{
+// 		width:100%;
+// 	}
+
+// }
 
