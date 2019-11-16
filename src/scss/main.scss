@@ -90,79 +90,82 @@ section.time{
 	.text-container-left-align {
 		width:50%;
 		float:left;
+		font-weight: bold;
 	}
 
 	.image-container-right-align {
+		position: relative;
+
 		.sleeper{
-			position: relative;
-			width:40%;
+			position: absolute;
+			width:50%;
 			float:left;
+			top: -10px;
+ 
 		}
 		.alarm-clock{
-			position: relative;
-			bottom: 5px;
-			left: 70px;
+			position: absolute;
 		}
+
 		.bolt{
-			position:relative;
+			position:absolute;
 			margin: 10px 0;
 		}
-		.bolt-1{
-			position:relative;
+		
+		&.bolt-1{
 		}
-		.bolt-2{
-			position:relative;
+
+		&.bolt-2{
+		
 		}
-		.bolt-3{
-			position:relative;
+
+		&.bolt-3{
+			
 		}
-		.bolt-4{
-			position:relative;	
+
+		&.bolt-4{
+				
 		}
-		.bolt-5{
-			position:relative;	
+		
+		&.bolt-5{
+		
 		}
 	}
 }
 
-// inline display
-
 section.consume {
 	.text-container-right-align {
+		position: relative;
 		width:50%;
 		float:left;
 		text-align: right;
+
+		h2{
+			font-weight: bold;
+		}
 	}
 
 	.image-container-left-align {
+		position: relative;
+		width: 50%;
+
 		.hands{
-			position:relative;
+			position: absolute;
 			float:left;
-			width:15%;
+			width:50%;
+			left: 20px;
+		
 		}
-		.hands-bolt{
-			position:relative;
+		.hands-bolt, .hands-bolt-1, .hands-bolt-2{
 			float:left;
+			width:10%;
 		}
-		.hands-bolt-1{
-			position:relative;
-			float:left;
-		}
-		.hands-bolt-2{
-			position:relative;
-			float:left;
-		}
+
 		.robot{
-			position:relative;
 			float:left;
-			width:15%;
+			width:50%;
 		}
-		.robot-bolt-1{
-			position:relative;
-			float:left;
-		}
-		.robot-bolt-2{
-			position:relative;
+		.robot-bolt-1, .robot-bolt-2{
 			float:left;
 		}
 	}
@@ -172,25 +175,28 @@ section.memory {
 	.text-container-left-align {
 		width:50%;
 		float:left;
+
+		h2{
+			font-weight: bold;
+		}
 	}
 
 	.image-container-right-align {
+		position: relative;
+
 		.brain{
-			position:relative;
 			float:left;
 			width:20%;
 			top: 20px;
 		}
 
 		.books-barbell{
-			position:relative;
 			float:left;
 			width:30%;
 			right:135px;
 			top: 10px;
 		}
 		.highlight{
-			position:relative;
 			float:left;
 		}
 	}
@@ -201,24 +207,26 @@ section.nap {
 		width:50%;
 		float:left;
 		text-align: right;
+
+		h2{
+			font-weight: bold;
+		}
 	}
 
 	.image-container-left-align {
+		position: relative;
+
 		.boss{
-			position:relative;
 			float:left;
-			width:15%;
-			left: 10px;
+			width:20%;
 		}
 		.sleeping-person{
-			position:relative;
 			float:left;
 			width:30%;
-			top: 30px;
+			top: 40px;
 			left: 20px;
 		}
 		.clock{
-			position:relative;
 			float:left;
 			width:5%;
 			right: 55px;
@@ -226,19 +234,19 @@ section.nap {
 		}
 
 		.thought-bubble{
-			position:relative;
+
 			float:left;
 			right: 230px;
 			bottom: 15px;
 		}
 
 		.big-z{
-			position:relative;
+
 			float:left;
 		}
 
 		.small-z{
-			position:relative;
+
 			float:left;
 		}
 	}
@@ -249,33 +257,39 @@ section.live {
 	.text-container-left-align {
 		width:50%;
 		float:left;
+		
+		h2{
+			font-weight: bold;
+		}
 	}
 
 	.image-container-right-align {
+		position: relative;
+
 		.pill{
-			position:relative;
+			position: absolute;
 			float:left;
 			width:10%;
 		}
 		.pill-2{
-			position:relative;
 			float:left;
 			width:10%;
 		}
 		.pencil{
-			position:relative;
+
 			float:left;
 			width:10%;
 		}
 		.clipboard{
-			position:relative;
+
 			float:left;
 			width:10%;
 		}
 		.first-aid-kit{
-			position:relative;
+			position:absolute;
 			float:left;
-			width:10%;
+			width:15%;
+			right: 10%;
 		}
 	}
 }
