@@ -104,7 +104,8 @@ section.time{
  
 		}
 		.alarm-clock{
-			position: absolute;
+			position:absolute;
+			left:50px;
 		}
 
 		.bolt{
@@ -112,10 +113,12 @@ section.time{
 			margin: 10px 0;
 		}
 		
-		&.bolt-1{
+		&.bolt-bolt-1{
+			position: aboslute;
+			top: 30px;
 		}
 
-		&.bolt-2{
+		&.bolt-bolt-2{
 		
 		}
 
@@ -157,6 +160,7 @@ section.consume {
 		
 		}
 		.hands-bolt, .hands-bolt-1, .hands-bolt-2{
+			position: absolute;
 			float:left;
 			width:10%;
 		}
