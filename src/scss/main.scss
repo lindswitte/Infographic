@@ -33,10 +33,6 @@ body {
 	}
 }
 
-.clearfix {
-	clear: both;
-}
-
 // /* 2. Content ================================= */
 
 // layout styles
@@ -48,39 +44,52 @@ h1.headline{
 	margin: 15px;	
 }
 
+section {
+    height: 150px;
+	float: left;
+	
+    figure {
+        height: 100%;
+        width: 50%;
+    }
+}
+
 section.time,
 section.memory,
 section.live {
 	h2 {
-		.number {
-			font-size: 50px;
-			font-weight: bold;
-		}
-		.text {
-			font-size: 20px;
-		}
-	}
-
-	p {
-		font-size: 15px;
-	}
+        display: flex;
+        flex-direction: row;
+		align-items: center;
+		
+        .number {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .text {
+            font-size: 20px;
+        }
+    }
+    p {
+        font-size: 15px;
+    }
 }
 
 section.consume,
 section.nap {
-	h2 {
-		.number {
-			font-size: 50px;
-			font-weight: bold;
-		}
-
-		.text {
-			font-size: 20px;
-		}
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	.number {
+		font-size: 50px;
+		font-weight: bold;
 	}
-	
+	.text {
+		font-size: 20px;
+	}
+
 	p {
-		font-size: 15px;
+	font-size: 15px;
 	}
 }
 
